@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#logo {
+  height: 15vh;
+  width: 15vw;
+  /* border: 2px solid red; */
+}
+.nav-text {
+  font-size: 3vh;
+  font-weight: bolder;
+  margin-left: 2vw;
+}
+.donate-btn {
+  width: 15vw;
+  margin-right: 5vw;
+  height: 10vh;
+  font-weight: bolder;
+  color: white;
+}
+/* .vdo {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  overflow: hidden;
+  border: 2px solid red;
+} */
+
+#text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 24px; */
+  /* font-family:monospace; */
+  /* font-weight: bolder; */
+  /* font-size: 4em; */
+}
+#text-overlay h1 {
+  /* border: 2px solid red; */
+  font-size: 3em;
+  font-weight: bolder;
+  /* width: 100%; */
+}
+.box1-btn1 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translate(200%, 200%);
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+}
+.box1-btn2 {
+  position: absolute;
+  top: 63%;
+  left: 40%;
+  transform: translate(150%, 150%);
+  z-index: 1;
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+}
+.find-donate-voluntree {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.find-help {
+  height: 30vh;
+  width: 40%;
+  /* border: 2px solid red; */
+  background-color: #800080;
+  /* font-size: 5vh; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.donate {
+  height: 30vh;
+  /* border: 2px solid red; */
+  background-color: #ffa500;
+  width: 40%;
+  /* font-size: 5vh; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.donate-btn a{
+  text-decoration: none;
+}
+.volunteer {
+  height: 30vh;
+  /* border: 2px solid red; */
+  background-color: #008000;
+  width: 40%;
+  /* font-size: 5vh; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.fdv-button {
+  width: 50%;
+  margin-left: 30px;
+  /* height: 5vh; */
+  /* padding: .5em;
+  text-align: center;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  font-weight: bolder; */
+}
+.fdv-h1 {
+  margin-left: 30px;
+}
+.need {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40vh;
+  width: 100%;
+  /* border-top: 2px solid rgb(211, 206, 206); */
+  /* border-bottom: 2px solid rgb(211, 206, 206); */
+  margin-top: 10vh;
+}
+.gray-line {
+  height: 1px;
+  width: 90%;
+  border: 1px solid rgb(211, 206, 206);
+  display: block;
+  margin: auto;
+  margin-top: 10vh;
+}
+.need-line {
+  color: #008000;
+  font-weight: bolder;
+  display: block;
+  /* justify-content: center; */
+  margin: auto;
+  margin-top: 5vh;
+  font-size: 2em;
+  width: 80%;
+  border-bottom: 2px solid rgb(211, 206, 206);
+  padding-bottom: 10vh;
+  /* border: 2px solid red; */
+}
+.p1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  color: #008000;
+  /* font-size: 2em; */
+  /* border: 2px solid red; */
+  /* height: 100%; */
+  font-weight: bold;
+  font-size: 2em;
+  width: 40%;
+}
+
+.span1 {
+  color: green;
+  margin-right: 10px;
+  font-weight: bolder;
+  /* border: 2px solid red; */
+  /* width: 40%; */
+}
+.span2 {
+  color: gray;
+  font-weight: bold;
+  /* border: 2px solid red; */
+  /* width: 13%; */
+}
+/* .span1_span2 {
+  border: 2px solid blue;
+} */
+.span3 {
+  color: gray;
+  font-weight: bold;
+  /* border: 2px solid red; */
+  /* width: 13%; */
+}
+.p2 img {
+  /* border: 2px solid red; */
+  height: 40vh;
+}
+.Upcoming_Events {
+  /* height: 90vh; */
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.events-main-heading {
+  color: #008000;
+  font-weight: bold;
+  width: 25%;
+  display: block;
+  margin: auto;
+  /* border: 2px solid red; */
+  margin-top: 5vh;
+}
+.events {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.e1 {
+  display: flex;
+  height: 40vh;
+  width: 40vw;
+  /* border: 2px solid blue; */
+}
+.e2 {
+  display: flex;
+  height: 40vh;
+  width: 40vw;
+  /* border: 2px solid blue; */
+}
+.detail {
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid green; */
+}
+.detail h5 {
+  /* padding: 2vh; */
+  display: block;
+  margin: auto;
+  /* background-color: #008000; */
+  /* width: 20%; */
+  color: white;
+  text-align: center;
+}
+.map {
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid green; */
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-container img {
+  display: block;
+  height: 50vh;
+  width: 100vw;
+}
+
+.img-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Color of text */
+  z-index: 1; /* Ensure content is above the background */
+}
+
+/* .img-content h1 {
+  font-size: 2em; 
+} */
+
+.img-content button {
+  padding: 10px 20px;
+  background-color: transparent; /* Button background color */
+  color: white; /* Button text color */
+  border: 2px solid white; /* White border */
+  border-radius: 5px;
+  /* font-size: 1em; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.img-content button:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Button background color on hover */
+}
+
+.contact-section {
+  /* margin-top: 5vh; */
+  background-color: #008000;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.address {
+  font-size: 18px;
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+}
+
+.mission {
+  /* border: 2px solid red; */
+  font-size: 20px;
+  width: 40%;
+}
